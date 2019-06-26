@@ -1,0 +1,121 @@
+.footer {
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  @media (max-width: 530px) {
+    height: 700px;
+  }
+
+  @media (max-width: 370px) {
+    height: 750px;
+  }
+
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #31343de8;
+    /*style footer content*/
+    .footer-content {
+      margin-top: 90px;
+      color: white;
+
+      img {
+        margin-bottom: 50px;
+        @media (max-width: 530px) {
+          margin-bottom: 30px;
+        }
+      }
+      p {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 20px;
+        font-family: font-4;
+        @media (max-width: 767px) {
+          width: 80%;
+        }
+      }
+      span {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: 600;
+        i {
+          color: $second-color;
+        }
+      }
+      form {
+        margin-top: 30px;
+        input {
+          background: none;
+          border: 1px solid white;
+          border-radius: 14px;
+          padding: 3px 10px;
+          margin-left: 20px;
+
+          @media (max-width: 530px) {
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+          }
+          &:focus {
+            background: white;
+            &::placeholder {
+              color: black;
+            }
+          }
+          &::placeholder {
+            color: white;
+            font-family: font-4;
+          }
+        }
+        button {
+          padding: 3px 23px;
+          border-radius: 15px;
+          border: none;
+          background-color: white;
+          color: $main-color;
+          font-weight: font-4;
+
+          cursor: pointer;
+          &:hover {
+            background-color: $second-color;
+            color: white;
+          }
+          @media (max-width: 530px) {
+            margin-top: 10px;
+          }
+        }
+      }
+
+      .icon {
+        display: flex;
+        justify-content: center;
+
+        .right-icon {
+          &::after {
+            border-right: 1px solid white;
+            content: "";
+            left: -32px;
+            position: relative;
+            right: -49px;
+            top: -25px;
+            height: 5px;
+            width: 100%;
+            padding-left: 90px;
+            margin-right: 31px;
+          }
+        }
+
+        a {
+          display: inline-block;
+          color: white;
+          font-size: 20px;
+          margin-left: 10px;
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.section-4 {
+  background-color: $main-color;
+  margin-top: 110px;
+  color: white;
+  padding: 60px;
+  h2 {
+    font-family: Font-3;
+  }
+  a {
+    padding: 10px 0px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 10px;
+    padding: 8px 20px;
+    border-radius: 22px;
+    border: none;
+    background-color: white;
+    color: $main-color;
+    font-family: font-4;
+    cursor: pointer;
+    &:hover {
+      background-color: $second-color;
+      color: white;
+      text-decoration-line: none;
+    }
+  }
+}

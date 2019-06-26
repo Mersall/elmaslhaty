@@ -1,0 +1,34 @@
+/*sass framwork*/
+$main-color: #0244e1;
+$second-color: #ffa602;
+
+@font-face {
+  font-family: "Font-1";
+  src: url(../fonts/ArbFONTS-4_1C.ttf) format("opentype");
+}
+@font-face {
+  font-family: "font-2";
+  src: url(../fonts/ArbFONTS-Arslan-Wessam-B.ttf) format("opentype");
+}
+@font-face {
+  font-family: Font-3;
+  src: url(../fonts/HelveticaNeueW23forSKY-Bd.ttf) format("opentype");
+}
+@font-face {
+  font-family: font-4;
+  src: url(../fonts/HelveticaNeueW23forSKY-Reg.ttf) format("opentype");
+}
+
+/*media query*/
+@mixin mq($wide) {
+  @media screen and (max-width: $wide) {
+    @content;
+  }
+}
+
+@import "header";
+@import "section-1";
+@import "section-2";
+@import "section-3";
+@import "section-4";
+@import "footer";

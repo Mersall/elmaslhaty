@@ -1,0 +1,107 @@
+.header {
+  background-image: url("../img/cover.png");
+  background-size: cover;
+  height: 822px;
+  background-repeat: no-repeat;
+  position: relative;
+  @media (max-width: 768px) {
+  }
+
+  .overlay {
+    background-image: url("../img/Mask\ Group\ 1\ \(1\).svg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbar {
+    .navbar-brand {
+      img {
+        width: 70%;
+      }
+    }
+    .nav-link {
+      color: white !important;
+      &:hover {
+        color: $second-color !important;
+      }
+    }
+    .button {
+      background-color: white;
+      color: blue !important;
+      border-radius: 15px;
+      margin-top: 3px;
+      padding: 5px 10px;
+      font-weight: bolder;
+      &:hover {
+        background-color: $second-color;
+        color: white !important;
+      }
+    }
+  }
+
+  /*style content*/
+
+  .content {
+    .text-content {
+      text-align: right;
+      margin-top: 140px;
+      color: white;
+      h4 {
+        margin-bottom: 40px;
+        font-size: 50px;
+        font-family: Font-3;
+      }
+      p {
+        margin-bottom: 40px;
+        font-family: font-4;
+        font-size: 20px;
+      }
+      a {
+        padding: 10px 0px;
+        width: 150px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 22px;
+        font-family: font-4;
+        background-color: white;
+        border: none;
+        color: blue;
+        cursor: pointer;
+        margin-left: 10px;
+        i {
+          font-size: 13px;
+          margin-left: 10px;
+        }
+        &:hover {
+          background-color: #ffa602;
+          color: white;
+          text-decoration-line: none;
+        }
+      }
+      @media (max-width: 768px) {
+        margin-top: 45px;
+        text-align: center;
+      }
+    }
+    .img-contnet {
+      position: absolute;
+      top: 150px;
+      left: -18px;
+
+      @media (max-width: 768px) {
+        left: 0px;
+        top: -14px;
+        text-align: center;
+        top: 50px;
+      }
+    }
+
+    img {
+      max-width: 70%;
+      @media (max-width: 768px) {
+        max-width: 50%;
+      }
+    }
+  }
+}
