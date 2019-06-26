@@ -17,22 +17,30 @@
   .navbar {
     .navbar-brand {
       img {
-        width: 70%;
+        width:80%;
       }
     }
     .nav-link {
       color: white !important;
+      margin-left: 25px;
+      font-family: font-4;
+
       &:hover {
         color: $second-color !important;
       }
     }
     .button {
+      padding: 7px 0px;
+      width: 130px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 22px;
+      font-family: font-4;
       background-color: white;
+      border: none;
       color: blue !important;
-      border-radius: 15px;
+      cursor: pointer;
       margin-top: 3px;
-      padding: 5px 10px;
-      font-weight: bolder;
       &:hover {
         background-color: $second-color;
         color: white !important;

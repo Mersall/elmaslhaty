@@ -39,19 +39,19 @@
     margin-top: 70px !important;
     .owl-next,
     .owl-prev {
-      margin-top: 50px !important ;
+      margin-top: 0px !important;
       border-radius: 50% !important;
-      width: 30px !important;
-      height: 30px !important;
+      width: 40px !important;
+      height: 40px !important;
       border: 1px solid grey !important;
-      font-size: 24px !important;
       display: inline-flex !important;
       justify-content: center !important;
-      span{
-        margin-top: -20px;
-        font-weight: 600;
-    font-size: 40px;
+      margin-left: 17px;
 
+      span {
+        margin-top: -18px;
+        font-weight: 600;
+        font-size: 43px;
       }
     }
   }
