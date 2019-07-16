@@ -4,8 +4,6 @@
   height: 822px;
   background-repeat: no-repeat;
   position: relative;
-  @media (max-width: 768px) {
-  }
 
   .overlay {
     background-image: url("../img/Mask\ Group\ 1\ \(1\).svg");
@@ -17,7 +15,7 @@
   .navbar {
     .navbar-brand {
       img {
-        width:80%;
+        width: 80%;
       }
     }
     .nav-link {
