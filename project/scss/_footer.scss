@@ -1,3 +1,5 @@
+
+
 .footer {
   background-image: url(../img/footer.png);
   background-repeat: no-repeat;
@@ -94,28 +96,23 @@
       .icon {
         display: flex;
         justify-content: center;
-
-        .right-icon {
-          &::after {
-            border-right: 2px solid white;
-            content: "";
-            left: 0;
-            position: relative;
-            right: 27px;
-            top: -2px;
-            height: 5px;
-            width: 100%;
-            padding-left: 90px;
-            margin-right: -91px;
-          }
-        }
-
-        a {
-          display: inline-block;
-          color: white;
-          font-size: 20px;
+        .icon-item {
           margin-left: 10px;
-          margin-top: 50px;
+        }
+        .icon-item a {
+          color: white;
+          margin-left: 5px;
+        }
+        .right-icon::after {
+          height: 17px;
+          width: 2px;
+          background: #fff;
+          content: "";
+          margin-left: 10px;
+          position: relative;
+          left: 9px;
+          display: block;
+          top: -20px;
         }
       }
     }
