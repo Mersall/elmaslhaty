@@ -6,7 +6,8 @@
   color: white;
   padding: 60px;
   h2 {
-    font-family: Font-3;
+    font-family: "Cairo", sans-serif;
+    font-weight: bolder;
   }
   a {
     padding: 10px 0px;
@@ -20,7 +21,7 @@
     border: none;
     background-color: white;
     color: $main-color;
-    font-family: font-4;
+    font-family: "Cairo", sans-serif;
     cursor: pointer;
     &:hover {
       background-color: $second-color;

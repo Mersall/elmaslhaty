@@ -21,7 +21,7 @@
     .nav-link {
       color: white !important;
       margin-left: 25px;
-      font-family: font-4;
+      font-family: "Cairo", sans-serif;
 
       &:hover {
         color: $second-color !important;
@@ -33,7 +33,7 @@
       text-align: center;
       display: inline-block;
       border-radius: 22px;
-      font-family: font-4;
+      font-family: "Cairo", sans-serif;
       background-color: white;
       border: none;
       color: blue !important;
@@ -55,13 +55,14 @@
       color: white;
       h4 {
         margin-bottom: 40px;
-        font-size: 50px;
-        font-family: Font-3;
+        font-size: 55px;
+        font-family: "Cairo", sans-serif;
+        font-weight: bold;
       }
       p {
         margin-bottom: 40px;
-        font-family: font-4;
         font-size: 20px;
+        font-family: "Cairo", sans-serif;
       }
       a {
         padding: 10px 0px;
@@ -69,7 +70,6 @@
         text-align: center;
         display: inline-block;
         border-radius: 22px;
-        font-family: font-4;
         background-color: white;
         border: none;
         color: blue;

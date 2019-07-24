@@ -2,37 +2,13 @@
 $main-color: #0244e1;
 $second-color: #ffa602;
 
-@font-face {
-  font-family: Font-1;
-  src: url(./fonts/AArslanWessamB-AArslanWessamB_1.ttf) format("truetype");
-  src: url(./fonts/AArslanWessamB-AArslanWessamB_1.woff) format("woff");
-  src: url(./fonts/AArslanWessamB-AArslanWessamB.woff2) format("woff2");
-}
-@font-face {
-  font-family: font-2;
-  src: url(./fonts/AArslanWessamB-AArslanWessamB.ttf) format("truetype");
-  src: url(./fonts/AArslanWessamB-AArslanWessamB.woff) format("woff");
-  src: url(./fonts/AArslanWessamB-AArslanWessamB.woff2) format("woff");
-}
-@font-face {
-  font-family: Font-3;
-  src: url(./fonts/HelveticaNeueW23forSKY-Bd.ttf) format("truetype");
-  src: url(./fonts/HelveticaNeueW23foSKY-Bd.woff2) format("woff2");
-  src: url(./fonts/HelveticaNeueW23foSKY-Bd.woff) format("woff");
-}
-@font-face {
-  font-family: font-4;
-  src: url(./fonts/HelveticaNeueW23forSKY-Reg.ttf) format("truetype");
-  src: url(./fonts/HelveticaNeueW23forSKY-Reg.woff2) format("woff2");
-  src: url(./fonts/HelveticaNeueW23forSKY-Reg.woff) format("woff");
-}
-
 /*media query*/
 @mixin mq($wide) {
   @media screen and (max-width: $wide) {
     @content;
   }
 }
+
 
 @import "header";
 @import "section-1";

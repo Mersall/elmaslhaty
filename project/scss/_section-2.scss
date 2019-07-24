@@ -1,5 +1,3 @@
-
-
 .section-2 {
   margin-top: 150px;
   background-color: #eef2f7;
@@ -8,7 +6,8 @@
     outline: none !important;
   }
   h4 {
-    font-family: Font-3;
+    font-family: "Cairo", sans-serif;
+    font-weight: bolder;
   }
 
   p {
@@ -16,7 +15,8 @@
     color: #3d3d3d;
     margin: auto;
     margin-bottom: 40px;
-    font-family: font-4;
+    font-family: "Cairo", sans-serif;
+    line-height: 1.8;
   }
   .item {
     background-color: white;
@@ -35,6 +35,7 @@
     }
     h5 {
       margin-top: 30px;
+      font-family: "Cairo", sans-serif;
     }
   }
   .owl-dots {
@@ -52,7 +53,7 @@
       display: inline-flex;
       justify-content: center;
       margin-left: 17px;
- 
+
       span {
         margin-top: -23px;
         font-weight: 420;
@@ -63,7 +64,6 @@
       span:focus {
         outline: none;
       }
-
     }
   }
 }
